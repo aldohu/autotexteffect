@@ -6,9 +6,33 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
+		<link
+			rel="stylesheet"
+			href="app.css"
+		/>
+		<script
+			src="app.js"
+			defer
+		></script>
 		<title>Auto Text effect</title>
 	</head>
 	<body>
-		<h1 class="text"></h1>
+		<div class="text-container">
+			<span id="animated-text">Hello, World!</span>
+		</div>
+		<form
+			action=""
+			class="speed"
+		>
+			<label for="quantity">Enter a speed:</label>
+			<input
+				type="number"
+				id="quantity"
+				name="quantity"
+				min="0"
+				max="100"
+				value="1"
+			/>
+		</form>
 	</body>
 </html>
